@@ -139,6 +139,16 @@ nav li a:hover{
     z-index: -1;
 }
 
+.projects img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .about-container{
     width: fit-content;
     margin-inline: 5%;
@@ -290,6 +300,6 @@ footer img:hover{
 
 @media (max-width: 600px) {
     .about-container{
-        border-radius: 75px;
+        border-radius: 100px;
     }
 }
