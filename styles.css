@@ -28,18 +28,10 @@ html, body {
     background: black;
 }
 
-@media (max-aspect-ratio: 1/1) {
+@media (min-width: 1100px) {
     .about-container{
-        border-radius: 5px;
+        border-radius: 100px;
     }
-}
-  
-@media (min-aspect-ratio: 1/1) {
-
-}
-  
-@media (aspect-ratio: 1/1) {
-
 }
 
 
