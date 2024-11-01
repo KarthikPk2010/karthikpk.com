@@ -228,7 +228,7 @@ button{
     transition: 0.2s ease-in-out;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 5vh);
+    transform: translate(-50%, 7vh);
     color:#333333;
     font-weight: 500;
     text-decoration: none;
@@ -261,7 +261,7 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: fit-cone;
+    height: fit-content;
 }
 
 footer a{
