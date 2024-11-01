@@ -8,7 +8,7 @@ html, body {
 }
 
 ::-webkit-scrollbar{
-    width: 2em;
+    width: 1.5em;
     background-color: #333333;
 }
 
@@ -27,13 +27,6 @@ html, body {
 ::-webkit-scrollbar-thumb:hover{
     background: black;
 }
-
-@media screen and (max-width: 600px) {
-    .about-container{
-        border-radius: 75px;
-    }
-}
-
 
 header{
     width: 100%;
@@ -292,3 +285,11 @@ footer img:hover{
     scale: 1.15;
 }
 
+
+
+
+@media (max-width: 600px) {
+    .about-container{
+        border-radius: 75px;
+    }
+}
