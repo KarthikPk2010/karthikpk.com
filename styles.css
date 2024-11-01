@@ -28,7 +28,7 @@ html, body {
     background: black;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     .about-container{
         border-radius: 75px;
     }
@@ -152,7 +152,7 @@ nav li a:hover{
     height: fit-content;
     background: #333333;
     border-radius: 150px;
-    padding-bottom: 7.5%;
+    padding-bottom: 5vw;
     margin-block: auto;
 }
 
