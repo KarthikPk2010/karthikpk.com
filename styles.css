@@ -108,7 +108,7 @@ nav li a:hover{
 }
 
 .main-heading{
-    font-size: clamp(3rem,8vw,8rem);
+    font-size: clamp(2.5rem,8vw,8rem);
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
     position: relative;
@@ -119,7 +119,7 @@ nav li a:hover{
     content: "I'm ";
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
-    font-size: clamp(2rem, 4.8vw, 6rem);
+    font-size: clamp(1.5rem, 4.8vw, 6rem);
     color: #e55451;
 }
 
@@ -127,7 +127,7 @@ nav li a:hover{
     content: "Just a random student";
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
-    font-size: clamp(1rem,2vw,4rem);
+    font-size: clamp(.75rem,2vw,4rem);
     color: #333333;
     position: absolute;
     top: 90%;
