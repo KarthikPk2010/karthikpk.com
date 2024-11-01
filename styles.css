@@ -28,9 +28,9 @@ html, body {
     background: black;
 }
 
-@media (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .about-container{
-        border-radius: 100px;
+        border-radius: 75px;
     }
 }
 
@@ -152,7 +152,7 @@ nav li a:hover{
     height: fit-content;
     background: #333333;
     border-radius: 150px;
-    padding-bottom: 3%;
+    padding-bottom: 7.5%;
     margin-block: auto;
 }
 
@@ -181,8 +181,7 @@ nav li a:hover{
     font-family: 'Oxanium', sans-serif;
     font-weight: 300;
     color: white;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding: 0px 30px;
     position: relative;
     text-align: justify;
 }
