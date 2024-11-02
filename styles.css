@@ -1,3 +1,9 @@
+:root{
+    --gray: #333333;
+    --red: #e55451;
+    --white: #FFFFFF;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -9,18 +15,18 @@ html, body {
 
 ::-webkit-scrollbar{
     width: 1.5em;
-    background-color: #333333;
+    background-color: var(--gray);
 }
 
 ::-webkit-scrollbar-track{
-    background: #e55451;
+    background: var(--red);
     border-radius: 200px;
     margin-block: 2vh;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #333333;
-    border: 0.25em solid #e55451;
+    background: var(--gray);
+    border: 0.25em solid var(--red);
     border-radius: 200px;
 }
 
@@ -34,7 +40,7 @@ header{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #333333;
+    background-color: var(--gray);
     user-select: none;
 }
 
@@ -50,7 +56,7 @@ nav{
 .resp_nav{
     width: 0;
     height: fit-content;
-    background-color: #333333;
+    background-color: var(--gray);
     border-radius: 75px;
     position: absolute;
     top: 7.5vh;
@@ -115,7 +121,7 @@ nav li a:hover{
 
 header h3{
     font-size: 3vh;
-    color: #e55451;
+    color: var(--red);
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
     position: absolute;
@@ -126,7 +132,7 @@ header h3{
 
 a i{
     font-size: 3.5vh;
-    color: #FFFFFF;
+    color: var(--white);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -176,7 +182,7 @@ a i{
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
     font-size: clamp(1.5rem, 4.8vw, 6rem);
-    color: #e55451;
+    color: var(--red);
 }
 
 .main-heading::after{
@@ -184,7 +190,7 @@ a i{
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
     font-size: clamp(.75rem,2vw,4rem);
-    color: #333333;
+    color: var(--gray);
     position: absolute;
     top: 90%;
     left: 0%;
@@ -224,7 +230,7 @@ a i{
     width: fit-content;
     margin-inline: 5%;
     height: fit-content;
-    background: #333333;
+    background: var(--gray);
     border-radius: 150px;
     padding-bottom: 5vw;
     margin-block: auto;
@@ -235,7 +241,7 @@ a i{
     font-size: 5vh;
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
-    color: #e55451;
+    color: var(--red);
     position: relative;
 }
 
@@ -275,37 +281,37 @@ a i{
     bottom: 0;
     width: 70%;
     height: 2px;
-    background: #e55451;
+    background: var(--red);
     transition: 0.2s ease-in-out;
 }
 
 .about p a:hover{
-    color: #e55451;
+    color: var(--red);
 }
 
 .project-list{
     width: 85%;
     height: fit-content;
-    background: #333333;
+    background: var(--gray);
     border-radius: 30px;
     padding-inline: 5vw;
     padding-block: 5px;
     position: relative;
     margin:  20px auto;
-    box-shadow: 5px 5px 3px #e55451;
+    box-shadow: 5px 5px 3px var(--red);
 }
 
 .project-list h3{
     font-size: 25px;
     font-family: 'Oxanium', sans-serif;
     font-weight: 500;
-    color: #e55451;
+    color: var(--red);
     margin-left: 2vw;
 }
 
 .project-list p{
     font-family: 'Oxanium', sans-serif;
-    color: #FFFFFF;
+    color: var(--white);
     font-size: 15px;
     transform: translateY(-75%);
     width: 50%;
@@ -313,8 +319,8 @@ a i{
 }
 
 .button1{
-    background: #e55451;
-    color: #333333;
+    background: var(--red);
+    color: var(--gray);
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
@@ -328,12 +334,12 @@ a i{
     font-family: 'Oxanium', sans-serif;
     font-weight: 700;
     font-size: 1.5vh;
-    box-shadow: 0 0 7px #e55451;
+    box-shadow: 0 0 7px var(--red);
 }
 
 .button2{
-    background: #333333;
-    color: #e55451;
+    background: var(--gray);
+    color: var(--red);
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
@@ -342,23 +348,23 @@ a i{
     height: 5vh; 
     border-radius: 10px;
     transition: 0.4s ease-in-out;
-    border: 2px solid #e55451;
+    border: 2px solid var(--red);
     cursor: pointer;
     font-family: 'Oxanium', sans-serif;
     font-weight: 700;
     font-size: 1.5vh;
-    box-shadow: 0 0 7px #e55451;
+    box-shadow: 0 0 7px var(--red);
 }
 
 .button1:hover{
-    background: #333333;
-    color: #e55451;
-    border: 2px solid #e55451;
+    background: var(--gray);
+    color: var(--red);
+    border: 2px solid var(--red);
 }
 
 .button2:hover{
-    background: #e55451;
-    color: #333333;
+    background: var(--red);
+    color: var(--gray);
     border: hidden;
 }
 
@@ -366,24 +372,24 @@ a i{
     content: '1';
     width: 30px;
     height: 30px;
-    background-color: #e55451;
+    background-color: var(--red);
     border-radius: 100px;
     position: absolute;
     text-align: center;
     font-size: 25px;
-    color: #FFFFFF;
+    color: var(--white);
     font-weight: 900;
     font-family: 'Oxanium',sans-serif;
     position: absolute;
     left: 2%;
     top: 50%;
     transform: translateY(-50%);
-    border: 1px solid #FFFFFF;
+    border: 1px solid var(--white);
 }
 
 .home button{
-    background-color: #e55451;
-    border: 2px solid #333333;
+    background-color: var(--red);
+    border: 2px solid var(--gray);
     cursor: pointer;
     width: clamp(75px, 10vw, 300px);
     height: 5vh; 
@@ -392,30 +398,30 @@ a i{
     position: absolute;
     left: 50%;
     transform: translate(-50%, 7vh);
-    color:#333333;
+    color:var(--gray);
     font-weight: 500;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-size: 1.5vh;
     text-transform: uppercase;
-    box-shadow: 0 0 5px #e55451;
+    box-shadow: 0 0 5px var(--red);
 }
 
 .home button:hover{
-    color: #e55451;
-    background-color: #333333;
-    border-color: #e55451;
+    color: var(--red);
+    background-color: var(--gray);
+    border-color: var(--red);
 }
 
 button:active{
-    background-color: #333333;
-    border-color: #e55451;
+    background-color: var(--gray);
+    border-color: var(--red);
 }
 
 footer{
     width: 100%;
     height: fit-content;
-    background-color: #333333;
+    background-color: var(--gray);
     padding: 15px 0px;
     position: relative;
 }
@@ -430,7 +436,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: #e55451;
+    color: var(--red);
 }
 
 .copyright{
@@ -438,7 +444,7 @@ footer a{
 }
 
 footer a p{
-    color: #e55451;
+    color: var(--red);
     font-size: 1.5vh;
     font-family: 'Oxanium', sans-serif;
     font-weight: 300;
