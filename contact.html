@@ -21,34 +21,51 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="projects.html" style="opacity: 1;">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" style="opacity: 1;">Contact</a></li>
             </ul>
-            <h3>Projects</h3>
+            <h3>Contacts</h3>
             <a id="open-a"><i class="fa fa-bars" id="open"></i></a>
             <a id="close-a"><i class="fa fa-close" id="close"></i></a>
         </nav>
         <div class="resp_nav" id="resp_nav">
             <a href="index.html" class="resp_a">Home</a>
             <a href="about.html" class="resp_a">About</a>
-            <a href="projects.html" class="resp_a" style="opacity: 1;">Projects</a>
-            <a href="contact.html" class="resp_a">Contact</a>
+            <a href="projects.html" class="resp_a">Projects</a>
+            <a href="contact.html" class="resp_a" style="opacity: 1;">Contact</a>
         </div>
     </header>
-    <div class="projects">
+    <div class="contact">
         <img src="bg.jpg" alt="">
-        <div class="projects-container">
-            <div class="project-list one">
-                <h3>karthikpk.com</h3>
-                <p>This is my portfolio, my most recent and best site.</p>
-                <a href="https://karthikpk.com/" target="_blank"><button class="button1">Open Website</button></a>
-                <a href="https://github.com/KarthikPk2010/karthikpk.com" target="_blank"><button class="button2">Open Code in GitHub</button></a>
-            </div>
+        <div class="contact-ctn">
+            <h1 class="contact-heading">Contact</h1>
+            <form action="" method="post">
+                <label class="name-field">
+                    <input type="text" name="name" id="name" required>
+                    <span class="name-placeholder">Name</span>
+                </label>
+
+                <label class="email-field">
+                    <input type="email" name="email" id="email" required>
+                    <span class="email-placeholder">Email</span>
+                </label>
+
+                <label class="subject-field">
+                    <input type="text" name="subject" id="subject" required>
+                    <span class="subject-placeholder">Subject</span>
+                </label>
+
+                <label class="message-field">
+                    <textarea name="message" type="text" rows="5" cols="30" required></textarea>
+                    <span class="message-placeholder">Message</span>
+                </label>
+                <button class="submit-btn">Send Message</button>
+            </form>
         </div>
     </div>
-    <footer style="position: absolute;bottom: 0;">
+    <footer>
         <p class="copyright">Copyright © 2024 Karthik PK. All rights reserved.</p>
-        <a href="https://www.flaticon.com/free-icons/github" target=”_blank” title="icons"><p>Social media icons created by Pixel perfect and Freepik - Flaticon</p></a>
+        <a href="https://www.flaticon.com/free-icons/github" title="icons"><p>Social media icons created by Pixel perfect and Freepik - Flaticon</p></a>
         <div class="sm">
             <a href="https://www.instagram.com/pk_karthik._/" target=”_blank”><img src="instagram.png" alt=""></a>
             <a href="https://codepen.io/Karthik-PK-the-animator/" target=”_blank”><img src="codepen.png" alt=""></a>
